@@ -80,8 +80,6 @@ var createTaskEl = function(taskDataObj) {
         default:
           console.log("Something went wrong!");
     }
-    // add entire list item to list
-    // tasksToDoEl.appendChild(listItemEl);
 
     taskDataObj.id = taskIdCounter;
 
